@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import MyName from './components/name';
-import reportWebVitals from './reportWebVitals';
+
+import car from './components/car';
+import List from './components/List';
+import Ul from './components/Ul';
+import Datateble from './components/Datateble'; 
+import Hook from './components/Hook';
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Datateble />
     <MyName />
+    <Hook/>
   </React.StrictMode>,
   document.getElementById('root')
 );
